@@ -1,0 +1,164 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    background-color: skyblue;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+#page-wrapper{
+    background-color: rgb(153, 171, 238);
+    border: solid red;
+    font-size: medium;
+padding: 40px;}
+header{
+    background-color: rgb(153, 171, 238);
+    
+    padding: 10px;
+    display:flex; 
+    flex-direction:row; 
+    justify-content:space-evenly;
+ }
+ ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+
+}
+ 
+li{
+    
+    display:flex; 
+    flex-direction:row; 
+    justify-content:space-evenly;
+    font-weight: bold;
+}
+#contact {
+    font-family: monospace;
+    border-style: groove;
+    border-radius: 40px;
+    padding: 20px,30px;
+    background-color: rgb(153, 171, 238);
+    font-size: medium;
+    font-weight: bold;
+}
+#logo{
+    font-weight: bolder;
+    font-family: serif;
+    font-size: xx-large;
+}
+#image1{
+    width: 1040px; 
+    height: auto; 
+    border-radius: 20px; 
+    margin: 20px auto; 
+    display: block;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+p{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+#btouch {
+    display: flex; 
+    justify-content: center; /* Centers the button horizontally */
+    align-items: center; /* Centers the button vertically */
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+}
+
+#touch {
+    font-family: monospace;
+    border-style: groove;
+    border-radius: 40px;
+    padding: 20px 30px; /* Fixed padding (corrected comma to space) */
+    background-color: rgb(139, 153, 236);
+    font-size: medium;
+    font-weight: bold;
+}
+#myworks{
+    font-family: monospace;
+    border-style: groove;
+    border-radius: 40px;
+    padding: 20px 30px; /* Fixed padding (corrected comma to space) */
+    background-color: rgb(139, 153, 236);
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 30px0;
+    margin-bottom: 30px;
+}
+#works{
+    display: flex; 
+    justify-content: center; /* Centers the button horizontally */
+    align-items: center; /* Centers the button vertically */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Briefing
+{
+    text-align: left;
+    left: 0ch;
+    margin: 20px; 
+
+}
+.steps{
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+}
+.p1{
+    text-align: left;
+}
+hr{
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
